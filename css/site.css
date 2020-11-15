@@ -1,0 +1,22 @@
+#headerImage{
+    max-height:300px;
+    width:100%;
+    object-fit: cover;
+    object-position: 0 10%;
+}
+
+.standing-info{
+    border-bottom: 1px solid rgba(0,0,0,0.14);
+}
+
+.image-team{
+    height: 300px;
+}
+
+#team-name{
+    font-weight: bold;
+}
+
+.saved-image-team{
+    max-height:100px;
+}
