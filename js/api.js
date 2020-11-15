@@ -1,4 +1,4 @@
-var base_url = "http://api.football-data.org/";
+var base_url = "https://api.football-data.org/";
 
 function status(response) {
   if (response.status !== 200) {

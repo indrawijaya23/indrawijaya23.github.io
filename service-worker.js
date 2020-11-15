@@ -25,7 +25,7 @@ workbox.precaching.precacheAndRoute([
 });
 
 workbox.routing.registerRoute(
-    new RegExp('http://api.football-data.org/'),
+    new RegExp('https://api.football-data.org/'),
     new workbox.strategies.StaleWhileRevalidate()
 );
 
